@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SRE Skill Tracking Tool</title>
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+<div class="row" id="header">
+	<div class="col-sm-12">
+	 <div class="row">
+  <div class="col-sm-3"> <h4 class="header_text">SRE Skill Tracking Tool</h4> </div>
+  <div class="col-sm-6"></div>
+  <div class="col-sm-3"> <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="user_menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    michael.helms@nutanix.com
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="user_menu" id="user-dropdown-menu">
+    <li><a href="#">Action=</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>  </div>
+</div> 
+	</div>	
+</div>
+<!-- Main Content -->
+<div class="row" id="main_content">
+  <div class="col-sm-4"> </div>
+  <div class="col-sm-4">
+   <div class="form-group">
+  <label for="sel1">I need help with</label>
+  <select class="form-control" id="sel1">
+    <option>AHV</option>
+    <option>AHV</option>
+    <option>AHV</option>
+    <option>AHV</option>
+  </select>
+</div> 
+
+   <div class="form-group">
+  <label for="sel2">Team</label>
+  <select class="form-control" id="sel2">
+    <option>Durham</option>
+    <option>San Jose</option>
+  </select>
+</div> 
+<br /><br />
+<button type="button" class="btn btn-primary">Search</button>
+<br /><br /><br />
+<p><b>Matches for AHV</b></p>
+           
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nobody</td>
+        <td>Nutant</td>
+        <td>nobody.nutant@nutanix.com</td>
+      </tr>
+      <tr>
+        <td>Nobody</td>
+        <td>Nutant</td>
+        <td>nobody.nutant@nutanix.com</td>
+      </tr>
+      <tr>
+        <td>Nobody</td>
+        <td>Nutant</td>
+        <td>nobody.nutant@nutanix.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  </div>
+  <div class="col-sm-4">  </div>
+</div>
+</body>
+</html>

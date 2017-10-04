@@ -1,0 +1,38 @@
+body {
+	background-color: #f9f9fa;
+}
+
+#header {
+	background-color: #343536;
+	height:60px;
+	color:white;
+}
+
+.header_text {
+	padding-top:5%;
+	padding-left:20%;
+}
+
+#main_content {
+	padding-top:5%;
+}
+
+#sel1 {
+	width:50%;
+}
+
+#sel2 {
+	width:30%;
+}
+
+#user_menu {
+	background-color: #343536;
+	border-color: #343536;
+	color: white;
+	padding-top:5%;
+	padding-left:20%;
+}
+
+#user-dropdown-menu {
+	padding-right:50px;
+}
